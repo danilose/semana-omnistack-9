@@ -1,6 +1,6 @@
 # Semana OmniStack 9.0
 
-## Aula 1 -Conhecendo a OmniStack e Ambiente de Desenvolvimento
+## Aula 1 - Conhecendo a OmniStack e Ambiente de Desenvolvimento
 
 Nessa aula você vai descobrir as principais ferramentas do ecossistema e o que nós vamos construir com elas
 
@@ -54,3 +54,20 @@ Fonte [Fira Code](https://github.com/tonsky/FiraCode)
 
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+
+## Aula 2 - Criando a base da aplicação - API Rest
+
+Nessa aula você vai construir o back-end da sua aplicação: uma API robusta utilizando NodeJS
+
+    mkdir backend
+
+    cd backend
+
+    yarn init -y
+
+    code .
+
+    yarn add express
+
+    mkdir src
+
