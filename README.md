@@ -65,9 +65,10 @@ Nessa aula você vai construir o back-end da sua aplicação: uma API robusta ut
 
     yarn init -y
 
-    code .
-
     yarn add express
 
     mkdir src
 
+    yarn add nodemon -D
+
+    yarn dev
