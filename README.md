@@ -72,3 +72,9 @@ Nessa aula você vai construir o back-end da sua aplicação: uma API robusta ut
     yarn add nodemon -D
 
     yarn dev
+
+    yarn add mongoose
+
+portquiz.net:27017
+
+    yarn add multer
