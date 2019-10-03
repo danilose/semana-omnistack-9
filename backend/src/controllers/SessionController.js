@@ -1,7 +1,7 @@
-// index, show, update, destroy
 const User = require('../models/User');
 
 module.exports = {
+  // index, show, update, destroy
   async store(req, res) {
     const { email } = req.body; // desestruturação
 
