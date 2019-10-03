@@ -78,3 +78,21 @@ Nessa aula você vai construir o back-end da sua aplicação: uma API robusta ut
 portquiz.net:27017
 
     yarn add multer
+
+    cd ..
+
+    yarn create react-app frontend
+
+    cd frontend 
+    
+    yarn start
+
+    yarn add axios
+
+    cd ../backend
+
+    yarn add cors
+
+    cd ../frontend
+
+    yarn add react-router-dom
