@@ -75,9 +75,13 @@ Nessa aula você vai construir o back-end da sua aplicação: uma API robusta ut
 
     yarn add mongoose
 
-portquiz.net:27017
+portquiz.net:27017 (site para testar portas da máquina)
 
     yarn add multer
+
+## Aula 3 - Construindo a interface web
+
+Nessa aula você vai construir o front-end da sua aplicação: uma interface web dinâmica com ReactJS
 
     cd ..
 
@@ -97,13 +101,27 @@ portquiz.net:27017
 
     yarn add react-router-dom
 
-## Aula 3 - Construindo a interface web
-
-Nessa aula você vai construir o front-end da sua aplicação: uma interface web dinâmica com ReactJS
-
 ## Aula 4 - Desenvolvendo o app mobile
 
 Nessa aula você vai desenvolver o app mobile da sua aplicação para iOS e Android com React Native
+
+    npm install expo-cli --global
+
+    expo init mobile
+
+Selecionar template blank e colocar o nome da aplicação
+
+    cd mobile
+
+    yarn start
+
+Caso não quiser usar o [expo](https://expo.io/tools) [Rocketseat Docs](https://docs.rocketseat.dev/)
+
+    yarn add [react-navigation](https://reactnavigation.org/docs/en/getting-started.html)
+
+    expo install react-native-gesture-handler react-native-reanimated
+
+    yarn add axios
 
 ## Aula 5 - Funcionalidades avançadas
 
